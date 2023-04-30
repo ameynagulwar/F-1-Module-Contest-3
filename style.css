@@ -1,0 +1,32 @@
+.carousel-item img{
+    height: 80vh;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: transparent !important;
+}
+
+.image-wrapper{
+    display: flex;
+}
+
+.imag-wrapper img{
+    height: 30vh;
+}
+
+.btn:hover{
+    color: #0b5ed7!important;
+    border: 1px solid #0b5ed7;
+    background-color: #fff!important;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .image-wrapper .container{
+        width: 50%;
+    }
+
+}
